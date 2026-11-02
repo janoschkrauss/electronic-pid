@@ -1,5 +1,5 @@
 #define B 4275.0
-float Tset = 26.3;                  // = Tmax - 3  <- anpassen!
+float Tset = 24.3;                  // = Tmax - 3  <- anpassen!
 float Kp = 60, Ki = 1.0, Kd = 0;    // PID-Parameter (Ki > 0 lassen)
 
 float Tf, Tprev, integ = 0;
